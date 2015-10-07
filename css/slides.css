@@ -1,0 +1,96 @@
+body {
+    font-size: 200%;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+}
+
+p {
+    font-size: 125%;
+    font-family: verdana, arial, sans-serif;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+h1, h2, h3, h4 {
+    font-family: FluxBoldRegular;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+ul {
+    -webkit-padding-start: 0; /* Chrome fix */
+}
+
+li {
+    font-size: 125%;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+    list-style-position: inside;
+}
+
+pre {
+    font-family: DejaVuSansMonoBook;
+    text-align: left;
+    font-size: 90%;
+    margin-left: 2em;
+}
+
+tt {
+    font-family: DejaVuSansMonoBook;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.step {
+    width: 950px;
+}
+
+.step table {
+    font-size: 60%;
+}
+
+@font-face {
+    font-family: 'DejaVuSansMonoBook';
+    src: url('../fonts/dejavusansmono-webfont.eot');
+    src: url('../fonts/dejavusansmono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dejavusansmono-webfont.woff') format('woff'),
+         url('../fonts/dejavusansmono-webfont.ttf') format('truetype'),
+         url('../fonts/dejavusansmono-webfont.svg#DejaVuSansMonoBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FluxBoldRegular';
+    src: url('../fonts/fluxb___-webfont.eot');
+    src: url('../fonts/fluxb___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fluxb___-webfont.woff') format('woff'),
+         url('../fonts/fluxb___-webfont.ttf') format('truetype'),
+         url('../fonts/fluxb___-webfont.svg#FluxBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.notes {
+    display: none;
+}
+
+.unhide {
+    display: none;
+}
+
+.active .unhide {
+    display: block;
+}
+
