@@ -15,7 +15,29 @@ PyCon PL 2015
 
     But the keyboard is the Analog to Digital interface that you use the most.
     It's what makes your physical movements into code. It needs to be adapted
-    to you.
+    to you!
+
+----
+
+Scare tactics!
+==============
+
+.. note::
+
+    And it needs adaptation to you not only so you can type on it quickly and
+    accurately, but also so you can continue to use it all day long without
+    hurting yourself!
+
+    Most people never get any problems, so don't worry, but you can get problems,
+    and the most common place is in the carpal tunnel.
+
+----
+
+Exercise!
+=========
+
+.. image:: images/carpal_tunnel_exercise.jpg
+    :width: 100%
 
 ----
 
@@ -27,11 +49,14 @@ A history of the keyboard
 
 .. note::
 
-    But the keyboard was created for mechanical typewriters. And this is the
+    Now, before we look at what keyboards people might want to use, I thought
+    it could be interesting to look at the history of the keyboard, to understand
+    why keyboards look like they do!
+
+    The keyboard was created for mechanical typewriters. And this is the
     first commercially available type writer, the Hansen Typing Ball.
     A Danish invention, and as you can see, the inventor bothered more about
-    how to get text on the paper than usability. You can't even see the
-    paper.
+    how to get text on the paper than usability.
 
     But it was reasonably fast to use, and the keys arranged so that the most
     common letters were available for the fastest and strongest fingers.
@@ -194,7 +219,9 @@ A history of the keyboard
     mainframes, while still running Lotus 1-2-3 and Wordperfect on the PC.
 
     So it gained buttons like "Scroll Lock" and "Sys Request", and gained
-    two extra function keys.
+    two extra function keys. The only changes to this layout since has been
+    Microsoft adding command-keys, inspired by Apple, and various manufacturers
+    adding multimedia keys.
 
     There is one series of non-IBM keyboard worth mentioning though, because
     those are the keyboards used when developing Emacs.
@@ -222,23 +249,6 @@ The Lisp Keyboards
     replacement for the meta-key. And these keyboards are also the reason
     many Unix variations call the Alt key "Meta" and the Command-key "Super".
 
-----
-
-Scare tactics!
-==============
-
-.. note::
-
-    Most people never get any problems, so don't worry, but you can get problems,
-    and the most common place is in the carpal tunnel.
-
-----
-
-Exercise!
-=========
-
-.. image:: images/carpal_tunnel_exercise.jpg
-    :width: 100%
 
 ----
 
