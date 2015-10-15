@@ -1,4 +1,7 @@
 :css: css/slides.css
+:skip-help: true
+
+.. title: Keyboards!
 
 ----
 
@@ -283,6 +286,80 @@ History lesson concluded
 
 ----
 
+Keys in a row
+=============
+
+.. note::
+
+    There are basically two modes of typing:
+
+    * The first school of typing is called home row touch typing
+
+    * There is no second school
+
+----
+
+Home row touch typing
+=====================
+
+.. image:: images/keyboarding.png
+
+.. note::
+
+    How many use touch typing here?
+
+    Look at this picture.
+    Where is this guys arms?
+    Does he hold it straight out?
+    Are his arms attached to the centre of his chest?
+
+----
+
+Home row touch typing
+=====================
+
+.. image:: images/wrist_bad2_sm.jpg
+
+.. note::
+
+    Rather, you end up sitting like this. And that's bad for your wrists.
+
+----
+
+Home row touch typing
+=====================
+
+.. image:: images/Truly_Ergonomic_Mechanical_Keyboard-207.jpg
+
+.. note::
+
+    If you are a touch typist, you might want to think about something like this instead.
+
+----
+
+Whoah!
+======
+
+.. image:: images/advantageusb.jpg
+
+.. note::
+
+    You may if you go to many Python sprints see people who actually will drag keyboards like this around the world.
+    They tend to be quite fanatical about them.
+    They are probably awesome.
+
+----
+
+No school typing
+================
+
+
+.. note::
+
+    But for the rest of us, keyboards that are split in half are annoying.
+
+----
+
 To QWERTY or not to QWERTY?
 ===========================
 
@@ -432,80 +509,6 @@ Localized Dvoraks
 
 ----
 
-Keys in a row
-=============
-
-.. note::
-
-    There are basically two modes of typing:
-
-    * The first school of typing is called home row touch typing
-
-    * There is no second school
-
-----
-
-Home row touch typing
-=====================
-
-.. image:: images/keyboarding.png
-
-.. note::
-
-    How many use touch typing here?
-
-    Look at this picture.
-    Where is this guys arms?
-    Does he hold it straight out?
-    Are his arms attached to the centre of his chest?
-
-----
-
-Home row touch typing
-=====================
-
-.. image:: images/wrist_bad2_sm.jpg
-
-.. note::
-
-    Rather, you end up sitting like this. And that's bad for your wrists.
-
-----
-
-Home row touch typing
-=====================
-
-.. image:: images/Truly_Ergonomic_Mechanical_Keyboard-207.jpg
-
-.. note::
-
-    If you are a touch typist, you might want to think about something like this instead.
-
-----
-
-Whoah!
-======
-
-.. image:: images/advantageusb.jpg
-
-.. note::
-
-    You may if you go to many Python sprints see people who actually will drag keyboards like this around the world.
-    They tend to be quite fanatical about them.
-    They are probably awesome.
-
-----
-
-No school typing
-================
-
-
-.. note::
-
-    But for the rest of us, keyboards that are split in half are annoying.
-
-----
-
 Numerical Keypad
 ================
 
@@ -563,8 +566,9 @@ ISO or ANSI?
     That key happens to be the key where larger and smaller are on the Swedish keyboard.
     Not having those makes web development hard.
 
-    Polish has standard layouts for both, so you can use whatever, the ANSI layout is the most popular here.
-    You on the other hand have two layouts, one official and one that everyone uses.
+    Polish has standard layouts for both, so you can use whatever, the ANSI
+    layout is the most popular here. You on the other hand have two layouts,
+    one official and one that everyone uses.
 
 ----
 
@@ -573,18 +577,67 @@ Let's switch!
 
 .. note::
 
-    Now we come to the really fun bit! The actual key switch mechanics! And before we
-    talk about the mechanics, we are going to talk about why different mechanics matter.
+    Now we come to the really fun bit! The actual key switch mechanics! And
+    before we talk about the mechanics, we are going to talk about why
+    different mechanics matter.
 
 ----
 
-Linear, Tactile, Clicky
+Tactile, Linear, Clicky
 =======================
 
-.. image:: images/Bsgraph.jpg
+.. image:: images/Force_graph--tactile--Cherry_ML.svg
+    :width: 100%
 
+.. note::
+
+    The terms Linear, Tactile and Clicky shows up a lot when it comes to key
+    technology, and it's the three types of feedback you get about if you
+    have pressed a key or not. This graph illustrates this.
+
+    What you see is a graph over how much pressure you need to move the key
+    over how far the key has been depressed. You can see that the pressure
+    required at one point. Of course, what actually happens here is not that
+    you press less on the key, no, what instead happens is that they key will
+    suddenly move further.
+
+    When you have this behaviour, the key is called "tactile", because you
+    get tactile feedback that they key was pressed. This is good, it helps you
+    know what you types without looking at the screen, and it also helps you
+    know which key you pressed if you happened to touch several keys at once.
 
 ----
+
+.. image:: images/keyboard_buckling_spring.gif
+    :width: 100%
+
+.. note::
+
+    A clicky key is one that not only is tactile, but also emits an audible
+    noise when activated. Famous keyboards that are clicky are the IBM
+    keyboards, that use a spring inside to create the tactile feedback. The
+    spring would not only provide the feel, but it would also hit the plastic
+    with a loud click.
+
+    These keyboards are very loud, but you have to remember they were
+    designed for offices that was used to typewriters, so nobody thought it
+    was a problem.
+
+----
+
+.. image:: images/Force_graph--linear--Cherry_MX_Black.svg
+    :width: 100%
+
+.. note::
+
+    Here is a linear force graph, as you can see, you don't have any feedback of when they
+    key is pressed. This is not necessarily bad, it depends on how big the key travel is.
+    The travel is how much the key can move. And here we come into the actual switch mechanics.
+
+----
+
+Switch mechanics
+================
 
 .. note::
 
@@ -600,13 +653,156 @@ Rubber dome
 ===========
 
 .. image:: images/rubberdome.jpg
+    :width: 100%
 
 .. note::
 
-    A rubber dome is indded just a dome of rubber that the key will press down on. Today
+    A rubber dome is indeed just a dome of rubber that the key will press down on. Today
     rubber dome keyboards are generally glued onto these transparent plastic membrane sheets.
     This is cheap to manufacture, and the rubber domes can be easily manufactured to provide
-    different amount of required pressure.
+    different amount of required pressure, and they tend to be slightly tactile.
+
+    But they tend to be "spongy" to the feel and the keys can feel rather wobbly and unstable.
+    To fix that problem, a key type called scissor switch was invented.
+
+----
+
+Scissor switch
+==============
+
+.. image:: images/525px-Scissor_switch_mechanism.svg.png
+    :width: 100%
+
+.. note::
+
+    A scissor switch has these two little metal arms in a scissor
+    configuration on both site of the key. This helps stabilise the key.
+    Scissor switches have a great benefit, they can be made very compact
+    with very little travel. For that reason they are used in almost every
+    modern laptop.
+
+    They often have tactile feedback, but generally very little, but this is
+    not a problem since they also have so shotr travel. That means that you
+    know that you have pressed a key, because it stopped moving. Since the
+    rubber is taking the force, they are also generally quite silent.
+
+----
+
+.. image:: images/Cherry_MX_--_gold_crosspoint_contacts.jpg
+    :width: 100%
+
+.. note::
+
+    The gold crosspoint contacts looks like this, it's two gold plated tubes
+    with cutouts that meet at a crosspoint. This is to ensure good contact.
+    This is what you find in high end keyboards. Their main benefit is that
+    there is no rubber dome, so they don't feel spongy, and since the contact
+    is mechanical and doesn't have the thin sheets of plastic that most
+    rubber dome keyboards have today, keyboards with these switches can
+    withstand a lot of abuse. I've poured coffee in keyboards like this, and
+    when the coffee dried and keys started to stick, I simply rinsed the
+    keyboard in lukewarm water and then lay it to dry for a few days. YMMV,
+    don't try that at home, it's a last resort etc.
+
+    But if you try that with a keyboard that has plastic membranes, chances
+    are it will never work again.
+
+----
+
+Cherry MX
+=========
+
+.. image:: images/Mx_brown_illustration.gif
+    :width: 50%
+
+.. note::
+
+    The most well known of these types are switches are called Cherry MX.
+    They come in various colors that have various characteristics, and there
+    are both linear, tactile and clicky variations.
+
+    I use Cherry MX brown, which is lightly tactile but not clicky. However,
+    they still make a clicky noise when you hit the bottom of the key travel.
+    And, as most switches of this type, they have quite a long travel. This
+    is both fixable!
+
+----
+
+.. image:: images/Damping.jpg
+    :width: 100%
+
+.. note::
+
+    Fixing the noise is called "Damping", and can be done in various ways. It can be
+    built into thge switch, or you can put these plastic dampeners on, adding the quare
+    "landing pads", or putting a little rubber o-ring on the keycap.
+
+
+----
+
+.. image:: images/O-rings_fitted.jpg
+    :width: 100%
+
+.. note::
+
+    My keyboard has o-rings fitted. Cheap and easy, although fiddly if you do it yourself.
+
+----
+
+Whacky keyboards!
+=================
+
+.. note::
+
+    But that's not the end of it! There are more outrageous keyboard designes out there
+    than the Kinesis Advantage. Oh, yes. But they tend to be more specialized.
+
+----
+
+Chorded keyboard
+================
+
+.. image:: images/velotype-black.png
+    :width: 100%
+
+.. note::
+
+    This for example is a chorded keyboard. Here it's not one key that is
+    connected to one character, instead it's combinations of keys, in some
+    cases you don't even get characters, you get syllables.
+
+    This particular keyboard is called a velotype and is designed for real
+    time subtitling. Yes, it's so fast to use once you learned it that you
+    can type faster than people speak. I'm going to guess it's not very good
+    for programming.
+
+----
+
+Touchless keyboards
+===================
+
+.. image:: images/touchless-keyboard.jpg
+    :width: 100%
+
+.. note::
+
+    The word "touchless" is a misnomer, since you usually have to touch them.
+    However, they require no force to press a key, and are good if you get
+    carpal tunnel syndrome or artritis, or other pains.
+
+    This particular keyboard is called the LightIO, and is based on your
+    finger blocking light to detect keystrokes. There used to be a keyboard
+    that was based on multitouch technology, that was pretty cool, it doubled
+    as a mousepad where you could use gestures. But Apple bought that company
+    and they stopped making keyboards and started making iPhones instead.
+
+----
+
+Exercise!
+=========
+
+.. image:: images/carpal_tunnel_exercise.jpg
+    :width: 100%
 
 ----
 
@@ -617,7 +813,9 @@ http://deskthority.net/wiki/
 
 .. note::
 
-    And here I can only recommend you to read and read and read on Deskthority's big wiki,
+    So, what keyboard should YOU have?
+
+    Well I can only recommend you to read and read and read on Deskthority's big wiki,
     which has crazy amounts of information on keyboards and keyboard switches.
 
     The most popular switches amongst people who actually look at their keyboard are
