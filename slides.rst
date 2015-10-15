@@ -69,9 +69,9 @@ A history of the keyboard
 
 .. note::
 
-    In US, three guys were working on a type writer by their own. Here you
-    see what is left of their first prototype. Yes, they took their keyboard
-    inspiration from another already existing keyboard: A piano.
+    Meanwhile in US, some people were working on a type writer by their own.
+    Here you see what is left of their first prototype. Yes, they took their
+    keyboard inspiration from another already existing keyboard: A piano.
 
 ----
 
@@ -96,7 +96,9 @@ A history of the keyboard
 
     To make it harder for the keys to get stuck, keys that are often used
     together in the English language was placed opposite each other in the
-    ring of hammers. The end result was this rather weird layout.
+    ring of hammers. The end result was this rather weird layout, which
+    contrary to myth is not made to slow typing down, but to speed it up by
+    eliminating jams!
 
     Although several people was involved in the development of this type
     writer, it's named after only two of them, and generally called a
@@ -249,20 +251,197 @@ The Lisp Keyboards
     replacement for the meta-key. And these keyboards are also the reason
     many Unix variations call the Alt key "Meta" and the Command-key "Super".
 
+----
+
+.. image:: images/chinesetypew.jpg
+    :width: 100%
+
+.. note::
+
+    Of course, keyboards for languages that use non-Latin characters all look
+    completely different, and as in this Chinese example, the whole
+    typewriter looks different. This in fact has no keys, just a large set if
+    loose types, and you move the whole machinery to the right type, which
+    then gets picked up and hammered onto the paper.
+
+    But for the rest of the talk I'll talk about keyboards for alphabets. I
+    really have no clue how relevant this is for other character systems.
 
 ----
 
-How U type?
-===========
+History lesson concluded
+========================
+
+.. note::
+
+    So that's how the keyboard happened, and why it looks like it does:
+    Straight rows of keys with a slight offset, with a QWERTY layout and
+    numerical keyboard and a bunch of function keys. But the reasons are now
+    mostly outdated, including the keys for mainframe emulation, as even
+    those who still use these old systems usually now have GUI interfaces
+    instead of terminal emulation.
+
+----
+
+To QWERTY or not to QWERTY?
+===========================
+
+.. note::
+
+    Although most countries that use latin alphabets use QWERTY, Turkey being
+    a notable exception, each country for various reasons tend to have it's
+    own keyboard. It's not each language, nono, it's typically each
+    *country*, with a few exceptions, like a lot of Latin America having the
+    same Spanish keyboard, although for some reason is different than the one
+    used in Spain.
+
+    And there is many countries that have English as an official language, but
+    only four different keyboard layout regions.
+
+----
+
+.. image:: images/keyboard-457.png
+    :width: 100%
+
+.. image:: images/keyboard-214.png
+    :width: 100%
+
+.. note::
+
+    Some countries have many official languages and many different keyboards,
+    others, like Canada, make one keyboard to support several languages.
+
+    And of course, some countries use different keyboard layouts for the same
+    language, most notably Poland, who has two layouts, one called
+    "Programmers layout" and the other called "That weird layout Windows
+    switches to by itself randomly".
+
+----
+
+.. image:: images/azerty.png
+    :width: 100%
+
+.. note::
+
+    And when I say most countries use QWERTY, what I mean is that they use
+    variations of QWERTY. Even change the positions of A to Z. The French for
+    example use AZERTY, which has a few keys switched, and keeps the M in the
+    old position. More problematic, it has the numerical keys and the
+    punctuation switched around so you have to press shift to enter numbers.
+    Very annoying.
+
+    The origin of the AZERTY layout is lost in history, my completely
+    unfounded guess is that it's actually a way to circumvent the QWERTY
+    patent, but I don't actually have any evidence of that.
+
+    The German QWERTZ layout puts T and Z close to each other, despite TZ
+    being a common combination of letters in German. That change therefore
+    actually made German keyboards at least in theory MORE susceptible to
+    jamming!
+
+----
+
+Pump up the Jam
+===============
+
+.. note::
+
+    But now keyboards are electronic, and only jam after you spill coca cola
+    in them, so the QWERTY layout is outdated.
+
+    Many attempts have been made to make keyboard layouts that are designed
+    to improve typing speed. The most well known of these are the Dvorak
+    layouts.
+
+----
+
+.. image:: images/Dvorak_keyboard_layout.svg
+    :width: 100%
+
+.. note::
+
+    The English Dvorak layout keeps all vowels on the left hand, and has the
+    most common consonants on the right hand. Dvorak also used some statistical
+    analysis to minimize the cases where one finger needed to jump from the top
+    row to the bottom row or vice versa, as in the word "minumum" on a QWERTY
+    keyboard.
+
+    This all speeds up typing and increases accuracy, at least in theory. It
+    has turned out to be hard to prove that this is actually the case.
+
+----
+
+Localized Dvoraks
+=================
+
+.. note::
+
+    Now if you localize a Dvorak layout, you should really do statistical
+    analysis on each language and rearrange letters according to that. But
+    for some reason, nobody seems to do this. Polish uses Z a lot more than
+    English does for example, but Dvorak puts it on the bottom row for the
+    right hand pinky finger. It's a worse position than even single V, which
+    Polish doesn't even have. Despite this, the Polish layouts for Dvorak
+    keeps the basic Dvorak layout.
+
+    And many countries also have multiple Dvorak layouts. Poland seems to
+    have three layouts. They all suffer from the same problems with Ł and
+    Ź, etc, you need to use alt-gr + the right pinky.
+
+    There are two Swedish layouts, one keeps compatibility with Swedish
+    hardware, you can just move around the keycaps on a standard Swedish
+    keyboard. The other keeps the layout as close as possible to American
+    Dvorak, even for punctuation. This makes it better for programming.
+
+----
+
+.. image:: images/Colemak_fingers.png
+    :width: 100%
+
+
+.. note::
+
+    Colemak keeps punctuation in the same place as the american QWERTY, but
+    moves around the letters to speed things up, but only if necessary.
+    As a result it's easier to learn than Dvorak, and claims to be better,
+    as you don't have to use your little fingers as much.
+
+    It also rmakes Caps Lock into a second backspace, because I mean,
+    WTF, Caps Lock? Who uses that? It's just annoying.
+
+----
+
+.. image:: images/workman.png
+    :width: 100%
+
+.. note::
+
+    The Workman layout realizes that the index finger rather moves down
+    to the bottom row than up to the top row. You can all check that for
+    yourself, how neither Dvorak nor Coleman realized this is rather
+    funny.
+
+    All of these thing the right hand is more capable than the left,
+    which is a problem for left handed people. And for everyone else as well,
+    since we now often have the right hand on the mouse.
+
+
+    Worst of all, both Dvorak and Workman changes where X, C and V are
+    makeing copying and pasting less smooth, although Workman only
+    changes it a little bit.
+
+----
+
+Keys in a row
+=============
 
 .. note::
 
     There are basically two modes of typing:
 
-    * The first school of typing is called Home row touch typing
+    * The first school of typing is called home row touch typing
 
     * There is no second school
-
 
 ----
 
@@ -389,23 +568,45 @@ ISO or ANSI?
 
 ----
 
-Dvorak?
-=======
+Let's switch!
+=============
+
+.. note::
+
+    Now we come to the really fun bit! The actual key switch mechanics! And before we
+    talk about the mechanics, we are going to talk about why different mechanics matter.
+
+----
+
+Linear, Tactile, Clicky
+=======================
+
+.. image:: images/Bsgraph.jpg
 
 
 ----
 
-That keyboardin' feeling
-========================
+.. note::
+
+    There are several different types of mechanics, but today there are basically
+    only two used, they are called "Rubber dome" and "Gold crosspoint". And as you can
+    hear from just the name, the Gold crosspoint is the best!
+
+    No, just joking, it's not that easy.
+
+----
+
+Rubber dome
+===========
+
+.. image:: images/rubberdome.jpg
 
 .. note::
 
-    And what kind of keys should you use? There's loads and loads! Andthey
-    differ in their mechanical design, how much noise they make, how much
-    tactile feedback they give you, and how long the key will travel when you
-    push it, etc.
-
-    And cheap keyboards here can give you serious pain. That happened to me!
+    A rubber dome is indded just a dome of rubber that the key will press down on. Today
+    rubber dome keyboards are generally glued onto these transparent plastic membrane sheets.
+    This is cheap to manufacture, and the rubber domes can be easily manufactured to provide
+    different amount of required pressure.
 
 ----
 
