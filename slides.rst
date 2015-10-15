@@ -8,6 +8,7 @@
 Your keyboard
 =============
 
+Lennart Regebro
 PyCon PL 2015
 
 .. note::
@@ -791,18 +792,26 @@ Touchless keyboards
     carpal tunnel syndrome or artritis, or other pains.
 
     This particular keyboard is called the LightIO, and is based on your
-    finger blocking light to detect keystrokes. There used to be a keyboard
-    that was based on multitouch technology, that was pretty cool, it doubled
-    as a mousepad where you could use gestures. But Apple bought that company
-    and they stopped making keyboards and started making iPhones instead.
+    finger blocking light to detect keystrokes.
+
+    Of course, with touchless keyboards you really have to tactile feedback at
+    all, and that's the biggest problem with them.
 
 ----
 
-Exercise!
-=========
-
-.. image:: images/carpal_tunnel_exercise.jpg
+.. image:: images/fingerworks_lp_overhead_onframe_500.jpg
     :width: 100%
+
+    I used to have one of these keyboard, well, I still do, but it's broken
+    now. It's basically two multitouch pads, and it was awesome. It had
+    gesture capabilities, and the right hand touchpad controled the mouse and
+    the left hand controlled the cursor.
+
+    But as a keyboard it was pretty useless because you had no way of knowing
+    if you had pressed a key or not. So close to amazing, yet so far. I had
+    an idea of how to fix that, but by the time I had that idea Apple had
+    bought that company and they stopped making keyboards and started making
+    iPhones instead.
 
 ----
 
@@ -818,9 +827,6 @@ http://deskthority.net/wiki/
     Well I can only recommend you to read and read and read on Deskthority's big wiki,
     which has crazy amounts of information on keyboards and keyboard switches.
 
-    The most popular switches amongst people who actually look at their keyboard are
-    the so called "Cherry MX" series.
-
 ----
 
 Tenkeyless Cherry MX Brown with dampener rings
@@ -830,12 +836,25 @@ Tenkeyless Cherry MX Brown with dampener rings
 
 .. note::
 
-    After much research I bought a tenkeyless keyboard that uses Cherry MX Brown switches
-    and had dampener rings. This both lowers the noise of the keys, and shortens the travel.
-    It was a success, I'm very happy with it.
+    After much research I bought a tenkeyless keyboard with Swedish QWERTY
+    layout that uses Cherry MX Brown switches and has dampener rings. I'm
+    very happy with it.
+
+----
+
+Exercise!
+=========
+
+.. image:: images/carpal_tunnel_exercise.jpg
+    :width: 100%
 
 ----
 
 That's all folks!
 =================
 
+* http://deskthority.net/wiki/
+
+* http://www.kinesis-ergo.com/
+
+* http://www.keyboardco.com/
