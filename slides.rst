@@ -9,6 +9,7 @@ Your keyboard
 =============
 
 Lennart Regebro
+
 PyCon PL 2015
 
 .. note::
@@ -228,32 +229,6 @@ A history of the keyboard
     two extra function keys. The only changes to this layout since has been
     Microsoft adding command-keys, inspired by Apple, and various manufacturers
     adding multimedia keys.
-
-    There is one series of non-IBM keyboard worth mentioning though, because
-    those are the keyboards used when developing Emacs.
-
-----
-
-The Lisp Keyboards
-==================
-
-.. image:: images/Space-Cadet_keyboard_2.jpg
-    :width: 100%
-
-.. note::
-
-    At MIT's artificial intelligence labs they developed computers that would
-    run Lisp natively, because they thought that this would somehow enable
-    them to do artificial intelligence. The keyboards used for these machines
-    had multiple modifier keys, so not only shift and control, but also
-    super, hyper and meta!
-
-    This keyboard is the most famous of the keyboards, known as the Space
-    Cadet-keyboard, for obvious reasons.
-
-    No other machines had these modifiers, which means Emacs uses Escape as a
-    replacement for the meta-key. And these keyboards are also the reason
-    many Unix variations call the Alt key "Meta" and the Command-key "Super".
 
 ----
 
@@ -626,6 +601,18 @@ Tactile, Linear, Clicky
 
 ----
 
+.. image:: images/Force_graph--clicky--capacitive_buckling_spring.svg
+    :width: 100%
+
+.. note::
+
+    As you can see, the force needed drops very quickly with these keyboards,
+    so the tacticle feedback is very strong even though there is no real
+    "bump". The result is that some people strongly prefer these keyboards
+    to any other keyboards. You have to type quite hard on them though.
+
+----
+
 .. image:: images/Force_graph--linear--Cherry_MX_Black.svg
     :width: 100%
 
@@ -683,9 +670,12 @@ Scissor switch
     modern laptop.
 
     They often have tactile feedback, but generally very little, but this is
-    not a problem since they also have so shotr travel. That means that you
+    not a problem since they also have so short travel. That means that you
     know that you have pressed a key, because it stopped moving. Since the
-    rubber is taking the force, they are also generally quite silent.
+    rubber is taking the force, they are also generally quite silent, and
+    they usually don't need a lot of force to be pressed. This means a lot
+    of people prefer this type of key. I used an Apple keyboard for years,
+    they are very good.
 
 ----
 
@@ -801,6 +791,8 @@ Touchless keyboards
 
 .. image:: images/fingerworks_lp_overhead_onframe_500.jpg
     :width: 100%
+
+.. note::
 
     I used to have one of these keyboard, well, I still do, but it's broken
     now. It's basically two multitouch pads, and it was awesome. It had
