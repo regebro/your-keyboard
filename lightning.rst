@@ -5,28 +5,31 @@
 
 ----
 
+Consider the Keyboard
+=====================
+
 .. image:: images/hansen_writing_ball.jpg
     :width: 50%
 
 .. note::
 
-    Have you considered your keyboard?
+    Your fingers and your keyboard is what sits between your brain and your
+    code.
 
-    The keyboard is the Analog to Digital interface that you use the most.
-    Your fingers and the keyboard is what sits between your brain and your
-    code. It's what makes your physical movements into code. It needs to be
-    adapted to you!
-
-----
-
-Scare tactics!
-==============
-
-.. note::
+    Your Keyboard needs to be adapted to you!
 
     And it needs adaptation to you not only so you can type on it quickly and
     accurately, but also so you can continue to use it all day long without
     hurting yourself!
+
+----
+
+.. image:: images/PET.png
+
+.. note::
+
+    So how did you select your keyboard? Are you using the keyboard that came
+    with your computer?
 
 ----
 
@@ -35,9 +38,7 @@ Scare tactics!
 
 .. note::
 
-    So how did you select your keyboard? Are you using the keyboard that came
-    with your computer? Or did you choose it because it has sharp angles or
-    a Z in the name?
+    Or did you choose it because it has sharp angles or a Z in the name?
 
     Is it really adapted to you?
 
@@ -142,18 +143,7 @@ Tenkeyless
 
 ----
 
-Let's switch!
-=============
-
-.. note::
-
-    Now we come to the really fun bit! The actual key switch mechanics! And
-    before we talk about the mechanics, we are going to talk about why
-    different mechanics matter.
-
-----
-
-Tactile, Linear, Clicky
+Linear, Tactile, Clicky
 =======================
 
 .. image:: images/Force_graph--tactile--Cherry_ML.svg
