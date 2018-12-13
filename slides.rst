@@ -725,7 +725,7 @@ Cherry MX
 .. note::
 
     Fixing the noise is called "Damping", and can be done in various ways. It can be
-    built into thge switch, or you can put these plastic dampeners on, adding the quare
+    built into the switch, or you can put these plastic dampeners on, adding the quare
     "landing pads", or putting a little rubber o-ring on the keycap.
 
 
